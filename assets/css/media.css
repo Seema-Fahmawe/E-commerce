@@ -1,0 +1,33 @@
+@media (max-width:768px) {
+   /* start shop */
+   .shop .shop-items .item .item-img::after {
+      left:-181px;
+      right: 110px;
+   }
+
+   .shop .shop-items .item .item-content h3 {
+      font-size: 18px;
+   }
+
+   .shop .shop-items .item .item-content {
+      top: 21px;
+      left: 19px;
+   }
+   /* end shop */
+}
+
+
+@media (max-width:576px) {
+   .container {
+      padding-left: 15px !important;
+   }
+   /* start shop */
+   .shop .shop-items .item .item-content {
+      top: 15px;
+      left: 10px;
+   }
+   /* end shop */
+
+  
+
+}
